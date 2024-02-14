@@ -1,0 +1,986 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+}
+
+.hero {
+  background-image: url(poster.jpg);
+  background-size: cover;
+  height: 950px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  width: 964px;
+  height: 66px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.navbar p a {
+  color: white;
+  text-decoration: none;
+}
+
+.search_logo a i {
+  color: white;
+}
+
+.navbar p a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  background-image: url(UFC.jpg);
+  width: 60px;
+  height: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card_no {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1em;
+  color: black;
+}
+
+.player1 {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: black;
+}
+
+.versus {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+}
+
+.player2 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: black;
+}
+
+.buyvip {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.ticket {
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  font-weight: 700;
+}
+
+.vip {
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ticket p a {
+  text-decoration: none;
+  color: black;
+}
+
+.vip p a {
+  text-decoration: none;
+  color: black;
+}
+
+.time {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+
+.add {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 530;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.fight_card {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 115px;
+}
+
+.fight_card .main {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-weight: 550;
+}
+
+.fight_card a {
+  text-decoration: none;
+  color: grey;
+}
+
+.fight_card a:hover {
+  color: black;
+}
+
+.fight_card .pre {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-weight: 550;
+}
+
+.fight_card .ep {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: grey;
+  font-weight: 550;
+}
+
+.card_page {
+  width: 80%;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+}
+
+.card_page .mc {
+  width: 300px;
+  height: 43px;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mc a {
+  color: black;
+  text-decoration: none;
+}
+
+.ppv .on {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.on a {
+  color: black;
+  text-decoration: none;
+}
+
+.card_page .order {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.order {
+  border: 2px solid black;
+}
+
+.order :hover {
+  color: red;
+}
+
+.order a {
+  color: black;
+  text-decoration: none;
+}
+
+/* alex vs tuporia*/
+
+.match1 {
+  height: 260px;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section1 {
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.alexvsilia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.iliavsalex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.australia p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+.georgia p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* whittaker vs costa */
+
+.match2 {
+  height: 260px;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section2_1 {
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.section2_2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.robertvscosta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.costavsrobert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.ausi p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+.brazil p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* neal vs garry*/
+
+.match3 {
+  height: 260px;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section3_1 {
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.section3_2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nealvsgarry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.garryvsneal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.us p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+.ireland p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* merab vs cejudo */
+
+.match4 {
+  height: 260px;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section4_1 {
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.section4_2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.merabvscejudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.cejudovsmerab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.georg p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+.usa p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* antony vs roman */
+
+.match5 {
+  height: 260px;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section5_1 {
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.section5_2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.antonyvsroman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.romanvsantony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.russia p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+.uss p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* updates */
+
+.blacksection {
+  background-color: rgb(11, 11, 11);
+  height: 710px;
+}
+
+.blacksection .word {
+  color: white;
+  height: 120px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twoimgsection {
+  display: flex;
+  justify-content: center;
+}
+
+.twoimg {
+  width: 85%;
+  height: 335px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.twoimgthoughts {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.twoimgthoughts1 {
+  width: 81%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twoimgthoughts1 .firstthought {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  width: 48%;
+  height: 60px;
+}
+
+.twoimgthoughts1 .secondthought {
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  width: 48%;
+  height: 60px;
+}
+
+.twoimg img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.firstimg {
+  overflow: hidden;
+}
+
+.firstimg:hover img {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.secondimg {
+  overflow: hidden;
+}
+
+.secondimg:hover img {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.loadmore {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-top: 70px;
+}
+
+.loadmore button {
+  width: 280px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid white;
+  margin-right: 130px;
+}
+
+.loadmore :hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+/* how to watch*/
+
+.htw {
+  background-color: pink;
+  height: 1153px;
+}
+
+.howtowatch {
+  background-color: white;
+  color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.htwtwo {
+  background-color: rgb(11, 11, 11);
+  width: 100%;
+  height: 1050px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* fightpass */
+
+.htwtwo .fightpass {
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 1000px;
+  width: 33%;
+}
+
+.fightpass {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fightpass h1 {
+  text-align: center;
+}
+
+.fightpass p {
+  text-align: center;
+}
+
+.fightpass .button1 {
+  height: 40px;
+  width: 230px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.fightpass .button2 {
+  height: 40px;
+  width: 230px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fightpass .button3 {
+  height: 40px;
+  width: 230px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.htwtwo .tickets {
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 500px;
+  width: 33%;
+}
+
+.htwtwo .watchgo {
+  background-color: rgb(11, 11, 11);
+  height: 500px;
+  width: 33%;
+}
+
+.button1 {
+  margin-left: 125px;
+}
+
+.fightpass hr {
+  margin-left: 172px;
+}
+
+.button1:hover {
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+
+.button2 {
+  margin-left: 125px;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: rgb(159, 2, 2);
+}
+
+.button3 {
+  margin-left: 125px;
+}
+
+.button3:hover {
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+
+/* tickets */
+
+.htwtwo .tickets {
+  background-color: rgb(11, 11, 11);
+  height: 1000px;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tickets h1 {
+  text-align: center;
+}
+
+.tickets p {
+  text-align: center;
+}
+
+.tickets hr {
+  margin-left: 172px;
+}
+
+.tickets button {
+  height: 40px;
+  width: 230px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button {
+  margin-left: 125px;
+}
+
+.tickets button:hover {
+  cursor: pointer;
+  background-color: rgb(159, 2, 2);
+}
+
+/* watchgo*/
+
+.htwtwo .watchgo {
+  background-color: rgb(11, 11, 11);
+  height: 980px;
+}
+
+.watchgo h1 {
+  color: white;
+}
+
+.watchgo p {
+  color: white;
+}
+
+.watchgo h1 {
+  text-align: center;
+}
+
+.watchgo img {
+  margin-left: 55px;
+  height: 500px;
+}
+
+.watchgo p {
+  text-align: center;
+}
+
+.watchgo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.watchgo .store {
+  display: flex;
+  justify-content: center;
+}
+
+.watchgo .store button {
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+.store .one {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.store .two {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.store button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/*fans voice*/
+
+.fansvoice {
+  color: white;
+  color: black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.voicebutton {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.voicebutton button {
+  width: 240px;
+  height: 50px;
+  font-weight: 600;
+}
+
+.voicebutton button:hover {
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+/*footer*/
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.footsec1 {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  justify-items: flex-start;
+}
+
+.footsec1 h4 {
+  margin-top: 60px;
+}
+
+.footer img {
+  height: 120px;
+}
+
+.footsec2 {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 50%;
+  display: flex;
+  margin-top: 40px;
+}
+
+.footsec2 ul {
+  list-style-type: none;
+}
+
+.footsec2 ul li {
+  margin-top: 5px;
+}
+
+.footsec2 ul li h3:hover {
+  cursor: pointer;
+}
+
+.footsec2 ul li:hover {
+  cursor: pointer;
+  color: grey;
+}
